@@ -7,7 +7,7 @@
 - that method should return new matrix which will be the same as input matrix but without all four edges
 - write at least two tests (one for edge case)
 
-## Input & Output
+## Inputs & Outputs
 
 ### Input 1
 ```
@@ -29,7 +29,7 @@
 ]
 ```
 
-### Input 12
+### Input 2
 ```
 [
   [0, 0, 0, 0, 0],
@@ -39,7 +39,7 @@
 ]
 ```
 
-### Output 1
+### Output 2
 ```
 [
   [2, 2, 2],
