@@ -4,8 +4,8 @@
 
 - write a method RemoveEdges()
 - that method should takes matrix (square or not-square) as parameter
-- that method return matrix which has the same as input but without all four edges
-- write at least two tests
+- that method should return new matrix which will be the same as input matrix but without all four edges
+- write at least two tests (one for edge case)
 
 ## Input & Output
 
