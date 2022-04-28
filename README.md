@@ -2,10 +2,11 @@
 
 ## Exercise
 
-- write a method RemoveEdges()
-- that method should takes matrix (square or not-square) as parameter
+- write a method `RemoveEdges()`
+- that method should take matrix (squared or not-squared) as parameter
+- note that when removing edges of a not-squared array, only ends of longest rows are to be removed, as shown in example 2 bellow
 - that method should return new matrix which will be the same as input matrix but without all four edges
-- write at least two tests (one for edge case)
+- write at least two tests (one for expected case and one edge case)
 
 ## Inputs & Outputs
 
@@ -32,6 +33,30 @@
 ### Input 2
 ```
 [
+  [7, 4],
+  [2, 4, 1],
+  [3, 6, 3, 2],
+  [5, 2, 5, 3, 7],
+  [1, 3],
+  [4, 0, 1, 6, 4],
+  [9, 6, 2],
+]
+```
+
+### Output 2
+```
+[
+  [4, 1],
+  [6, 3, 2],
+  [2, 5, 3],
+  [3],
+  [0, 1, 6],
+]
+```
+
+### Input 3
+```
+[
   [0, 0, 0, 0, 0],
   [0, 2, 2, 2, 0],
   [0, 2, 2, 2, 0],
@@ -39,7 +64,7 @@
 ]
 ```
 
-### Output 2
+### Output 3
 ```
 [
   [2, 2, 2],
